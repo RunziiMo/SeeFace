@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">See Face</string>
+    <string name="app_name_chinese">看脸</string>
+    <string name="takePhoto">拍照</string>
+    <string name="folderPicture">相册</string>
+    <string name="face_score">外貌:</string>
+    <string name="sex">性别:</string>
+    <string name="age">年龄:</string>
+    <string name="pick">图片</string>
+    <string name="loading">载入</string>
+    <string name="imagePicked">The image you picked</string>
+    <string name="showResult">showResult</string>
+    <string name="faceDetection">祈祷</string>
+    <string name="OK">确定</string>
+    <string name="preview">预览</string>
+    <string name="demo_scene_understanding">Demo scene understanding</string>
+    <string name="selftest">Self Test</string>
+    <string name="pkfriends">PK Friends</string>
+    <string name="fuckyou">Fuck!</string>
+    <string name="menu_settings">Menu</string>
+    <string name="no_camera">没有摄像头</string>
+    <string name="author">润之腊肉馆</string>
+    <string name="author2">responsible</string>
+    <string name="power">Powered By</string>
+    <string name="intro">在这个看脸的时代，你的脸有多少分呢？</string>
+
+</resources>

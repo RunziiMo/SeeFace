@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/app_name_chinese"
+        android:textColor="#000000"
+        android:textSize="45sp" />
+
+    <ImageView
+        android:id="@+id/imagePicked"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/imagePicked"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#39000000" >
+
+        <Button
+            android:id="@+id/button_pick_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:background="#00000000"
+            android:drawableTop="@drawable/folder_picture_button"
+            android:onClick="buttonMainDoThing"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/folderPicture"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button_face_detection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/button_pick_image"
+            android:background="#00000000"
+            android:drawableTop="@drawable/face_detect_button"
+            android:onClick="buttonMainDoThing"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/faceDetection"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button_take_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_toLeftOf="@+id/button_pick_image"
+            android:background="#00000000"
+            android:drawableTop="@drawable/camera_button"
+            android:onClick="buttonMainDoThing"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/takePhoto"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</LinearLayout>
